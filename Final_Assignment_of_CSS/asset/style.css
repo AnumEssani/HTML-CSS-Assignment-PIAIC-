@@ -1,0 +1,40 @@
+body{
+    font-family: 'Sansita Swashed', cursive !important;
+    font-size: 14px !important;
+    overflow-x:hidden ;
+}
+.navbar-brand img{height:50px}
+.landing-page{
+    margin-top: 10px;
+}
+
+.landing-page h1{
+    font-size: 100px;
+}
+
+.left{
+    margin-top: -18px;
+    margin-left: 10px;
+}
+
+.lower-ftr{
+    background-color: black;
+    color:white;
+}
+.center{text-align: center;}
+.nav-link{font-size: 20px;}
+
+
+@media(max-height:334px){
+    .landing-page h1{
+        font-size: 50px;
+    }
+    
+    .left{
+        margin-top: -18px;
+        margin-left: 10px;
+    }
+}
+#Home span{color:blue;font-size: 40px; font-weight: bold;}
+.footer-bg{background-color: lightgray;margin-top: 1.5%;}
+
